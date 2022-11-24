@@ -1,0 +1,23 @@
+body {
+	background-color: black;
+}
+
+img {
+	background-color: #333;
+	height: 30%;
+	width: 30%;
+}
+
+h1 {
+	color: white;
+	font-size: 260%;
+}
+
+p {
+	color: white;
+	font-size: small;
+}
+
+h2 {
+	color: white;
+}

@@ -4,8 +4,30 @@
 body {
   background-color: lightgray;
 }
+  
+ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+			background-color: lightgray;
+		}
 
+li {
+	float: left;
+}
 
+li a {
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 14px 15px;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: lightgray;
+}
 
 input[type=text], select {
   width: 100%;
@@ -39,6 +61,10 @@ div {
 }
 </style>
 <body>
+  
+  <ul>
+		<li><a class="active" href="index.html">Home</a></li>
+	</ul>
 
 <center><h2>Membership Form</h2></center>
 
